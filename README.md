@@ -33,7 +33,3 @@ Agora, isolamos o termo que contém a nossa incógnita, $[\tilde{\mathbf{x}}]_B$
 $$B^TB[\tilde{\mathbf{x}}]_B = B^T\mathbf{x}$$
 
 Neste ponto, devemos resolver um sistema de equações lineares. Para encontrar o vetor de coordenadas $[\tilde{\mathbf{x}}]_B$, o objetivo é solucionar este sistema matricial, onde a matriz dos coeficientes é $B^TB$ e o vetor de termos independentes é $B^T\mathbf{x}$.
-
-Como as colunas de $B$ são linearmente independentes, a matriz quadrada resultante $B^TB$ possui inversa. Multiplicando ambos os lados pela inversa $(B^TB)^{-1}$, resolvemos o sistema e isolamos a resposta final:
-
-$$[\tilde{\mathbf{x}}]_B = (B^TB)^{-1}B^T\mathbf{x}$$
